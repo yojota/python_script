@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+""" Leer un archivo PDF, JPG, GIF o PNG, en modo binario, y hacer el contenido
+leído se escriba en un nuevo archivo (siempre utilizando la estructura with y
+open)."""
+with open("cv.pdf", "rb") as archivo:
+    contenido = archivo.read()
+
+with open("cv_copy.pdf", "wb") as archivo_copy:
+    archivo_copy.write(contenido)

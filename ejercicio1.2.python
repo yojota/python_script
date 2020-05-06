@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+"""Leer un archivo de texto plano, línea por línea, y recuperar en una variable,
+solo la última línea, y en otra variable, todas las líneas menos la primera."""
+
+with open("archivo.txt","r") as archivo:
+    for linea in archivo.readline():
+        print (linea)
+
+
