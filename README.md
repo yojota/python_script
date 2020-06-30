@@ -37,6 +37,9 @@ Se reciben aprotes de todas las personas interesadas en hacerlo.
 
 * Jota perez
 * juan.perez@nicromit.com - yojota@gmail.com
+* [Twitter] (https://twitter.com/yojota)
+* [Linkedin] (https://www.linkedin.com/in/juan-francisco-perez-b0759632/)
+* [Sitio Web] (yojota.com.ar)
 
 ## Licencia
 GPL 
