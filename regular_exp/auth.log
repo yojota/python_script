@@ -1,0 +1,210 @@
+Jun 28 00:17:01 jotabook CRON[21265]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 28 00:17:01 jotabook CRON[21265]: pam_unix(cron:session): session closed for user root
+Jun 28 01:17:01 jotabook CRON[22709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 28 01:17:01 jotabook CRON[22709]: pam_unix(cron:session): session closed for user root
+Jun 28 02:17:01 jotabook CRON[24166]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 28 02:17:01 jotabook CRON[24166]: pam_unix(cron:session): session closed for user root
+Jun 28 03:17:01 jotabook CRON[25719]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 28 03:17:01 jotabook CRON[25719]: pam_unix(cron:session): session closed for user root
+Jun 28 04:17:01 jotabook CRON[27561]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 28 04:17:01 jotabook CRON[27561]: pam_unix(cron:session): session closed for user root
+Jun 28 05:03:02 jotabook polkitd(authority=local): Unregistered Authentication Agent for unix-session:3 (system bus name :1.55, object path /org/lxqt/PolicyKit1/AuthenticationAgent, locale es_AR.UTF-8) (disconnected from bus)
+Jun 28 05:03:03 jotabook systemd-logind[627]: System is powering down.
+Jun 29 08:13:02 jotabook systemd-logind[664]: New seat seat0.
+Jun 29 08:13:02 jotabook systemd-logind[664]: Watching system buttons on /dev/input/event3 (Power Button)
+Jun 29 08:13:02 jotabook systemd-logind[664]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Jun 29 08:13:02 jotabook systemd-logind[664]: Watching system buttons on /dev/input/event2 (Power Button)
+Jun 29 08:13:02 jotabook systemd-logind[664]: Watching system buttons on /dev/input/event9 (Logitech USB Receiver Consumer Control)
+Jun 29 08:13:02 jotabook systemd-logind[664]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jun 29 08:13:02 jotabook sshd[778]: Server listening on 0.0.0.0 port 22.
+Jun 29 08:13:02 jotabook sshd[778]: Server listening on :: port 22.
+Jun 29 08:13:04 jotabook sddm-helper: pam_unix(sddm-greeter:session): session opened for user sddm by (uid=0)
+Jun 29 08:13:04 jotabook systemd-logind[664]: New session 1 of user sddm.
+Jun 29 08:13:04 jotabook systemd: pam_unix(systemd-user:session): session opened for user sddm by (uid=0)
+Jun 29 08:13:32 jotabook sddm-helper: pam_unix(sddm:session): session opened for user yojota by (uid=0)
+Jun 29 08:13:32 jotabook systemd-logind[664]: New session 3 of user yojota.
+Jun 29 08:13:32 jotabook sddm-helper: pam_unix(sddm-greeter:session): session closed for user sddm
+Jun 29 08:13:32 jotabook systemd-logind[664]: Session 1 logged out. Waiting for processes to exit.
+Jun 29 08:13:32 jotabook systemd-logind[664]: Removed session 1.
+Jun 29 08:13:32 jotabook systemd: pam_unix(systemd-user:session): session opened for user yojota by (uid=0)
+Jun 29 08:13:32 jotabook polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.66 [/usr/bin/lxqt-policykit-agent], object path /org/lxqt/PolicyKit1/AuthenticationAgent, locale es_AR.UTF-8)
+Jun 29 08:13:41 jotabook systemd: pam_unix(systemd-user:session): session closed for user sddm
+Jun 29 08:13:44 jotabook sudo:   yojota : TTY=pts/0 ; PWD=/home/yojota ; USER=root ; COMMAND=/usr/sbin/ifconfig
+Jun 29 08:13:44 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 29 08:13:44 jotabook sudo: pam_unix(sudo:session): session closed for user root
+Jun 29 08:13:54 jotabook sudo:   yojota : TTY=pts/0 ; PWD=/home/yojota ; USER=root ; COMMAND=/usr/sbin/ifconfig wlp58s0 down
+Jun 29 08:13:54 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 29 08:13:54 jotabook sudo: pam_unix(sudo:session): session closed for user root
+Jun 29 08:14:03 jotabook sudo:   yojota : TTY=pts/0 ; PWD=/home/yojota ; USER=root ; COMMAND=/usr/bin/vim /etc/resolv.conf
+Jun 29 08:14:03 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 29 08:14:13 jotabook sudo: pam_unix(sudo:session): session closed for user root
+Jun 29 08:15:32 jotabook dbus-daemon[1847]: [session uid=1000 pid=1847] Failed to activate service 'org.freedesktop.portal.Documents': timed out (service_start_timeout=120000ms)
+Jun 29 08:17:01 jotabook CRON[4854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 08:17:01 jotabook CRON[4854]: pam_unix(cron:session): session closed for user root
+Jun 29 08:30:01 jotabook CRON[6579]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 08:30:01 jotabook CRON[6579]: pam_unix(cron:session): session closed for user root
+Jun 29 08:41:11 jotabook sudo:   yojota : TTY=pts/1 ; PWD=/home/yojota ; USER=root ; COMMAND=/usr/sbin/openvpn /home/yojota/Documentos/VPN/jperez.ovpn
+Jun 29 08:41:11 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 29 08:42:39 jotabook sudo: pam_unix(sudo:session): session closed for user root
+Jun 29 09:11:56 jotabook gnome-keyring-daemon[8861]: couldn't access control socket: /run/user/1000/keyring/control: No existe el fichero o el directorio
+Jun 29 09:11:56 jotabook gnome-keyring-daemon[8861]: no private keys found in file
+Jun 29 09:11:56 jotabook gnome-keyring-daemon[8861]: invalid or unrecognized private SSH key: yojota@jotabook
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: bus acquired: org.gnome.keyring.SystemPrompter
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: registering prompter
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: bus acquired: org.gnome.keyring.PrivatePrompter
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: received BeginPrompting call from callback /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: preparing a prompt for callback /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: creating new GcrPromptDialog prompt
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: automatically selecting secret exchange protocol
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: generating public key
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: beginning the secret exchange: [sx-aes-1]\npublic=8QTlGPad79RAmH4uucAXP2b11hh0PunBsxo41Je6Vw4u7hHCf6uNEnjaI0+M0WwmAd7/dKdh+4gRnzSoPmCer1KMEICKNTMDqeuP+kSEdvdkZoDJaHkhtM1mmAkJbCx+KiKlwm30Iy8gT68ERWKYa4X6XPswkvVawnWeXVpZqHp86Y4Mm16+Z27704ub77RB3f25r39BZ1XVYvc/3DdQhQHZvgONbYw4QlLJOnrWI1Asw6H4n3s0I5CP08s0xkxx\n
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: calling the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: acquired name: org.gnome.keyring.SystemPrompter
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: acquired name: org.gnome.keyring.PrivatePrompter
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: returned from the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: received PerformPrompt call from callback /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: receiving secret exchange: [sx-aes-1]\npublic=Aw7Q+ojAehbecudcSUG+eCfUEdveettuBiGngUDDyi5u30rdqrlSP6OUgzQW8GgBPBbacOHDYBzJRm7OqoZru2I2bRKj7+TREv4mAf9nvks1Ub1k5vyUmzKIeWrpE3W6L/pjRO2YjhTgIigTzmXgREiCbTN7Xj0HOhTkAug777hMtcad+rMDTAepF80pX0OeD2E1GChqMc+FDMGXWKVs/LEfrGFIBDBWDO2dACBje31GzKN2x0JCxDwYf6s+L5EW\n
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: deriving shared transport key
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: deriving transport key
+Jun 29 09:11:56 jotabook gcr-prompter[8868]: Gcr: starting password prompt for callback /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: completed password prompt for callback :1.158@/org/gnome/keyring/Prompt/p2
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: encrypting data
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: sending the secret exchange: [sx-aes-1]\npublic=8QTlGPad79RAmH4uucAXP2b11hh0PunBsxo41Je6Vw4u7hHCf6uNEnjaI0+M0WwmAd7/dKdh+4gRnzSoPmCer1KMEICKNTMDqeuP+kSEdvdkZoDJaHkhtM1mmAkJbCx+KiKlwm30Iy8gT68ERWKYa4X6XPswkvVawnWeXVpZqHp86Y4Mm16+Z27704ub77RB3f25r39BZ1XVYvc/3DdQhQHZvgONbYw4QlLJOnrWI1Asw6H4n3s0I5CP08s0xkxx\nsecret=hxcW6INsU/Hsa4h/RmHJAg==\niv=F33gVnefWMDIetZmBeFjsw==\n
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: calling the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: returned from the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: received PerformPrompt call from callback /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: stopping prompting for operation /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: closing the prompt
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: stopping prompting for operation /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: couldn't find the callback for prompting operation /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: stopping prompting for operation /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: couldn't find the callback for prompting operation /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: stopping prompting for operation /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: couldn't find the callback for prompting operation /org/gnome/keyring/Prompt/p2@:1.158
+Jun 29 09:11:58 jotabook gcr-prompter[8868]: Gcr: calling the PromptDone method on /org/gnome/keyring/Prompt/p2@:1.158, and ignoring reply
+Jun 29 09:11:59 jotabook gnome-keyring-daemon[8861]: asked to register item /org/freedesktop/secrets/collection/Dep_c3_b3sito_5fde_5fclaves_5fpredeterminado/17, but it's already registered
+Jun 29 09:12:00 jotabook gnome-keyring-daemon[8861]: asked to register item /org/freedesktop/secrets/collection/Dep_c3_b3sito_5fde_5fclaves_5fpredeterminado/16, but it's already registered
+Jun 29 09:12:09 jotabook gcr-prompter[8868]: 10 second inactivity timeout, quitting
+Jun 29 09:12:09 jotabook gcr-prompter[8868]: Gcr: unregistering prompter
+Jun 29 09:12:09 jotabook gcr-prompter[8868]: Gcr: disposing prompter
+Jun 29 09:12:09 jotabook gcr-prompter[8868]: Gcr: finalizing prompter
+Jun 29 09:17:01 jotabook CRON[9097]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 09:17:01 jotabook CRON[9097]: pam_unix(cron:session): session closed for user root
+Jun 29 09:30:01 jotabook CRON[9532]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 09:30:01 jotabook CRON[9532]: pam_unix(cron:session): session closed for user root
+Jun 29 10:13:57 jotabook sudo:   yojota : TTY=pts/1 ; PWD=/home/yojota ; USER=root ; COMMAND=/usr/sbin/openvpn /home/yojota/Documentos/VPN/jperez.ovpn
+Jun 29 10:13:57 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 29 10:14:07 jotabook sudo: pam_unix(sudo:session): session closed for user root
+Jun 29 10:14:08 jotabook sudo:   yojota : TTY=pts/1 ; PWD=/home/yojota ; USER=root ; COMMAND=/usr/sbin/openvpn /home/yojota/Documentos/VPN/jperez.ovpn
+Jun 29 10:14:08 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 29 10:14:39 jotabook sudo: pam_unix(sudo:session): session closed for user root
+Jun 29 10:17:01 jotabook CRON[11264]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 10:17:01 jotabook CRON[11264]: pam_unix(cron:session): session closed for user root
+Jun 29 10:29:35 jotabook sudo:   yojota : TTY=pts/1 ; PWD=/home/yojota/Investigaciones/eko2020 ; USER=root ; COMMAND=/usr/bin/mount 2Much memoria
+Jun 29 10:29:35 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 29 10:29:36 jotabook sudo: pam_unix(sudo:session): session closed for user root
+Jun 29 10:30:01 jotabook CRON[12061]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 10:30:01 jotabook CRON[12061]: pam_unix(cron:session): session closed for user root
+Jun 29 10:58:49 jotabook sudo:   yojota : TTY=pts/3 ; PWD=/home/yojota ; USER=root ; COMMAND=/usr/sbin/tcpdump port 587
+Jun 29 10:58:49 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 29 11:17:01 jotabook CRON[15610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 11:17:01 jotabook CRON[15610]: pam_unix(cron:session): session closed for user root
+Jun 29 11:30:01 jotabook CRON[16143]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 11:30:01 jotabook CRON[16143]: pam_unix(cron:session): session closed for user root
+Jun 29 12:17:01 jotabook CRON[18453]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 12:17:01 jotabook CRON[18453]: pam_unix(cron:session): session closed for user root
+Jun 29 12:30:01 jotabook CRON[19239]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 12:30:01 jotabook CRON[19239]: pam_unix(cron:session): session closed for user root
+Jun 29 12:35:03 jotabook sudo: pam_unix(sudo:session): session closed for user root
+Jun 29 12:35:12 jotabook sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/3 ruser=yojota rhost=  user=yojota
+Jun 29 12:35:18 jotabook sudo:   yojota : TTY=pts/3 ; PWD=/home/yojota ; USER=root ; COMMAND=/usr/sbin/tcpdump port 465
+Jun 29 12:35:18 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 29 13:17:01 jotabook CRON[21546]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 13:17:01 jotabook CRON[21546]: pam_unix(cron:session): session closed for user root
+Jun 29 13:30:01 jotabook CRON[21866]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 13:30:01 jotabook CRON[21866]: pam_unix(cron:session): session closed for user root
+Jun 29 14:17:02 jotabook CRON[23832]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 14:17:02 jotabook CRON[23832]: pam_unix(cron:session): session closed for user root
+Jun 29 14:30:01 jotabook CRON[24540]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 14:30:01 jotabook CRON[24540]: pam_unix(cron:session): session closed for user root
+Jun 29 15:17:01 jotabook CRON[26711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 15:17:01 jotabook CRON[26711]: pam_unix(cron:session): session closed for user root
+Jun 29 15:30:01 jotabook CRON[27092]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 15:30:01 jotabook CRON[27092]: pam_unix(cron:session): session closed for user root
+Jun 29 16:17:01 jotabook CRON[28758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 16:17:01 jotabook CRON[28758]: pam_unix(cron:session): session closed for user root
+Jun 29 16:30:01 jotabook CRON[29217]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 16:30:01 jotabook CRON[29217]: pam_unix(cron:session): session closed for user root
+Jun 29 17:17:01 jotabook CRON[30963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 17:17:01 jotabook CRON[30963]: pam_unix(cron:session): session closed for user root
+Jun 29 17:30:01 jotabook CRON[31463]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 17:30:01 jotabook CRON[31463]: pam_unix(cron:session): session closed for user root
+Jun 29 18:17:01 jotabook CRON[1266]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 18:17:01 jotabook CRON[1266]: pam_unix(cron:session): session closed for user root
+Jun 29 18:30:01 jotabook CRON[2109]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 18:30:01 jotabook CRON[2109]: pam_unix(cron:session): session closed for user root
+Jun 29 19:17:01 jotabook CRON[3822]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 19:17:01 jotabook CRON[3822]: pam_unix(cron:session): session closed for user root
+Jun 29 19:30:01 jotabook CRON[4189]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 19:30:01 jotabook CRON[4189]: pam_unix(cron:session): session closed for user root
+Jun 29 20:17:01 jotabook CRON[5686]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 20:17:01 jotabook CRON[5686]: pam_unix(cron:session): session closed for user root
+Jun 29 20:30:01 jotabook CRON[6056]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 20:30:01 jotabook CRON[6056]: pam_unix(cron:session): session closed for user root
+Jun 29 21:17:01 jotabook CRON[7302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 21:17:01 jotabook CRON[7302]: pam_unix(cron:session): session closed for user root
+Jun 29 21:30:01 jotabook CRON[7631]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 21:30:01 jotabook CRON[7631]: pam_unix(cron:session): session closed for user root
+Jun 29 22:17:01 jotabook CRON[9251]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 22:17:01 jotabook CRON[9251]: pam_unix(cron:session): session closed for user root
+Jun 29 22:20:01 jotabook CRON[9341]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 22:20:01 jotabook CRON[9341]: pam_unix(cron:session): session closed for user root
+Jun 29 22:30:01 jotabook CRON[9749]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 22:30:01 jotabook CRON[9749]: pam_unix(cron:session): session closed for user root
+Jun 29 23:17:01 jotabook CRON[11300]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 23:17:01 jotabook CRON[11300]: pam_unix(cron:session): session closed for user root
+Jun 29 23:30:01 jotabook CRON[11682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 29 23:30:01 jotabook CRON[11682]: pam_unix(cron:session): session closed for user root
+Jun 29 23:54:38 jotabook sudo:   yojota : TTY=pts/4 ; PWD=/home/yojota/Documentos/VPN ; USER=root ; COMMAND=/usr/bin/kill -9 8743
+Jun 29 23:54:38 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 29 23:54:38 jotabook sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 00:17:01 jotabook CRON[13857]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 00:17:01 jotabook CRON[13857]: pam_unix(cron:session): session closed for user root
+Jun 30 01:12:32 jotabook polkitd(authority=local): Unregistered Authentication Agent for unix-session:3 (system bus name :1.66, object path /org/lxqt/PolicyKit1/AuthenticationAgent, locale es_AR.UTF-8) (disconnected from bus)
+Jun 30 01:12:33 jotabook systemd-logind[664]: System is powering down.
+Jun 30 08:17:34 jotabook systemd-logind[670]: New seat seat0.
+Jun 30 08:17:34 jotabook systemd-logind[670]: Watching system buttons on /dev/input/event3 (Power Button)
+Jun 30 08:17:34 jotabook systemd-logind[670]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Jun 30 08:17:34 jotabook systemd-logind[670]: Watching system buttons on /dev/input/event2 (Power Button)
+Jun 30 08:17:34 jotabook systemd-logind[670]: Watching system buttons on /dev/input/event9 (Logitech USB Receiver Consumer Control)
+Jun 30 08:17:34 jotabook sshd[755]: Server listening on 0.0.0.0 port 22.
+Jun 30 08:17:34 jotabook sshd[755]: Server listening on :: port 22.
+Jun 30 08:17:34 jotabook systemd-logind[670]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jun 30 08:17:37 jotabook sddm-helper: pam_unix(sddm-greeter:session): session opened for user sddm by (uid=0)
+Jun 30 08:17:37 jotabook systemd-logind[670]: New session 1 of user sddm.
+Jun 30 08:17:37 jotabook systemd: pam_unix(systemd-user:session): session opened for user sddm by (uid=0)
+Jun 30 08:17:58 jotabook sddm-helper: pam_unix(sddm:session): session opened for user yojota by (uid=0)
+Jun 30 08:17:58 jotabook systemd-logind[670]: New session 3 of user yojota.
+Jun 30 08:17:58 jotabook sddm-helper: pam_unix(sddm-greeter:session): session closed for user sddm
+Jun 30 08:17:58 jotabook systemd-logind[670]: Session 1 logged out. Waiting for processes to exit.
+Jun 30 08:17:58 jotabook systemd-logind[670]: Removed session 1.
+Jun 30 08:17:58 jotabook systemd: pam_unix(systemd-user:session): session opened for user yojota by (uid=0)
+Jun 30 08:17:59 jotabook polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.55 [/usr/bin/lxqt-policykit-agent], object path /org/lxqt/PolicyKit1/AuthenticationAgent, locale es_AR.UTF-8)
+Jun 30 08:18:09 jotabook systemd: pam_unix(systemd-user:session): session closed for user sddm
+Jun 30 08:19:59 jotabook dbus-daemon[1116]: [session uid=1000 pid=1116] Failed to activate service 'org.freedesktop.portal.Documents': timed out (service_start_timeout=120000ms)
+Jun 30 08:30:01 jotabook CRON[4169]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 08:30:01 jotabook CRON[4169]: pam_unix(cron:session): session closed for user root
+Jun 30 08:32:52 jotabook sudo:   yojota : TTY=pts/0 ; PWD=/home/yojota/aplicaciones/thunderbird ; USER=root ; COMMAND=/usr/sbin/ifconfig
+Jun 30 08:32:52 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 08:32:52 jotabook sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 08:33:03 jotabook sudo:   yojota : TTY=pts/0 ; PWD=/home/yojota/aplicaciones/thunderbird ; USER=root ; COMMAND=/usr/sbin/ifconfig wlp58s0 down
+Jun 30 08:33:03 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 08:33:03 jotabook sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 08:33:17 jotabook sudo:   yojota : TTY=pts/0 ; PWD=/home/yojota/aplicaciones/thunderbird ; USER=root ; COMMAND=/usr/bin/vim /etc/resolv.conf
+Jun 30 08:33:17 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 08:33:28 jotabook sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 09:14:45 jotabook sudo:   yojota : TTY=pts/2 ; PWD=/home/yojota ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Jun 30 09:14:45 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 09:14:45 jotabook sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 09:16:43 jotabook sudo:   yojota : TTY=pts/1 ; PWD=/home/yojota/NicromIT/repos/python_script/regular_exp ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log .
+Jun 30 09:16:43 jotabook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
