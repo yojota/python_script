@@ -27,9 +27,16 @@ with open("cv_copy.pdf", "wb") as archivo_copy:
     archivo_copy.write(contenido)
 ```
 
+## Enviar email con archivo adjunto
+
+* El script sendmail_atach.py es el ejemplo para poder enviar email. Se necesita el archivo variables.py para configurar parametros.
 ## Aportes
 Se reciben aprotes de todas las personas interesadas en hacerlo.
 
+## Contacto
+
+* Jota perez
+* juan.perez@nicromit.com - yojota@gmail.com
 
 ## Licencia
 GPL 
