@@ -21,18 +21,32 @@ from requests import get, exceptions
 
 #     return pingstatus
 
-import os
+# import os
 
-def check_ping(hostname):
-    response = os.system("ping -c 1 " + hostname)
-    # and then check the response...
-    if response == 0:
-        pingstatus = "Up " + hostname
-    else:
-        pingstatus = "Down " + hostname
+# def check_ping(hostname):
+#     response = os.system("ping -c 1 " + hostname)
+#     # and then check the response...
+#     if response == 0:
+#         pingstatus = "Up " + hostname
+#     else:
+#         pingstatus = "Down " + hostname
 
-    return pingstatus
+#     return pingstatus
 
 
-pingstatus = check_ping("192.168.1.254")
-print pingstatus
+# pingstatus = check_ping("192.168.1.254")
+# print pingstatus
+
+
+# typo error in import
+import subprocess
+
+
+address = "192.168.1.254"
+res = subprocess.call(['ping', '-c', '1', address])
+if res == 0:
+	print "ping to", address, "OK"
+elif res == 2:
+	print "no response from", address
+else:
+	print "ping to", address, "failed!"
