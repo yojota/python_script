@@ -36,7 +36,12 @@ In this repository the idea is to solve small challenges that allow me to improv
 ## Problem to resolve with any tool
 
 * high score oom of the all proceses
-* 
+* find more heavy file 
+* Sort file
+* awk
+* sed
+
+ 
 ## Contact
 
 * Jota perez
