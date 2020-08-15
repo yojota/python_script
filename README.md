@@ -1,6 +1,6 @@
-# Repositorio Aprendiendo
+# Repository of Learn
 
-En este repositorio la idea es ir resolviendo pequeños desafios que me permitan mejora todos los días
+In this repository the idea is to solve small challenges that allow me to improve every day
 
 ## Documentation
 
@@ -10,7 +10,7 @@ En este repositorio la idea es ir resolviendo pequeños desafios que me permitan
  * [Markdown](https://guides.github.com/features/mastering-markdown/)
 
 
-## Plan de Ejercicios
+## Practice Program
 
 * Scripting
 	* Bash
@@ -32,13 +32,13 @@ En este repositorio la idea es ir resolviendo pequeños desafios que me permitan
 	* Practice English      
 
 
-## Contacto
+## Contact
 
 * Jota perez
 * juan.perez@nicromit.com - yojota@gmail.com
 * [Twitter](https://twitter.com/yojota)
 * [Linkedin](https://www.linkedin.com/in/juan-francisco-perez-b0759632/)
-* [Sitio Web](http://yojota.com.ar)
+* [Website](http://yojota.com.ar)
 
 ## Licencia
 GPL 
