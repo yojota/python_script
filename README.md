@@ -9,7 +9,9 @@ In this repository the idea is to solve small challenges that allow me to improv
  * [Bash](https://devhints.io/bash)
  * [Markdown](https://guides.github.com/features/mastering-markdown/)
 
+## Link of interest
 
+* 
 ## Practice Program
 
 * Scripting
@@ -31,7 +33,10 @@ In this repository the idea is to solve small challenges that allow me to improv
 	* Explication
 	* Practice English      
 
+## Problem to resolve with any tool
 
+* high score oom of the all proceses
+* 
 ## Contact
 
 * Jota perez
