@@ -21,6 +21,7 @@ mysql -u usuario -p basededatos < basededatos.sql
 SELECT * FROM shop ORDER BY article;
 
 select User from mysql.user;
+
 select u.User,Db from mysql.user u,mysql.db d where u.User=d.User;
 SELECT user,host FROM mysql.user;
 GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'localhost';
@@ -117,3 +118,78 @@ done
 du -hs * | sort -rh | head -5
 # with recursive subdirectory
 du -Sh | sort -rh | head -5
+
+#display the biggest file size only
+find -type f -exec du -Sh {} + | sort -rh | head -n 5
+
+# snippet query dig for ip of hostname
+domains=(example.com example.net example.org)
+for domain in "${domains[@]}"; do
+    echo "$domain : $(dig +short a $domain | tail -n1)"
+done
+
+
+#regexp
+grep "^[[:alnum:]]"
+grep "^[[:alpha:]]"
+grep "^[[:blank:]]"
+grep "^[[:digit:]]"
+grep "^[[:lower:]]"
+grep "^[[:space:]]"
+#ip directions
+grep -oi "[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}"
+
+
+#timeout read variable
+
+if [[ $# -le 0 ]]
+then
+    printf "Not enough arguments!\n"
+    exit
+fi
+
+TIMEOUT=$1
+VARIABLE=0
+
+while :
+do
+  ((VARIABLE = VARIABLE + 1))
+  read -t $TIMEOUT -p "Do you want to Quit(Y/N): "
+  if [ $VARIABLE -gt $TIMEOUT ]; then
+    echo "Timing out - user response took too long!"
+    break
+  fi
+
+  case $REPLY in
+  [yY]*)
+    echo "Quitting!"
+    break
+    ;;
+  [nN]*)
+    echo "Do not quit!"
+    ;;
+  *) echo "Please choose Y or N!"
+     ;;
+  esac
+done
+
+#dialog https://aplicacionesysistemas.com/dialog-crear-menus-tus-scripts/
+
+#cron
+m h dow mon dom
+* * *   *   *
+@reboot
+@yearly
+@monthly
+@weekly
+@daily
+@midnight
+@hourly
+.--------------- minuto (0-59) 
+|  .------------ hora (0-23)
+|  |  .--------- día del mes (1-31)
+|  |  |  .------ mes (1-12) o jan,feb,mar,apr,may,jun,jul... (meses en inglés)
+|  |  |  |  .--- día de la semana (0-6) (domingo=0 ó 7) o sun,mon,tue,wed,thu,fri,sat (días en inglés) 
+|  |  |  |  |
+*  *  *  *  *  comando a ejecutar
+
