@@ -1,0 +1,51 @@
+Speech interview presentation
+-----------------------------
+
+
+
+1.- My current role
+2.- my background (know how)
+3.- my ambitions ( why company is the perfect site I goin to jobs or match with my ambitions)
+
+Time: 1 or 2 minutes
+
+Nicolás Garimaldi DBA operator
+Jonathan Linenberg SRo Level 1
+
+Wath is a DNS and what is a diferent records?
+DNS is a global system for translating IP addresses to human-readable domain names. For example www.google.com.ar.
+king of types records is:
+
+.- Address Mapping record (A Record)
+.- IP Version 6 Address record (AAAA Record)
+.- Canonical Name record (CNAME Record)
+.- Mail exchanger record (MX Record)
+.- Name Server records (NS Record)
+.- Text Record (TXT Record)
+.- Start of Authority (SOA Record)
+
+
+The situación: I have tow server: Aplication server and Webserver, but i dont have conection to gether. In de past yes conecctions. Whats flow step you resolve trobleshoot problem?
+1.- First a check of phicycal ports
+2.- 
+3.-
+4.-
+5.-
+6.-
+
+The server patching. Who do you the resolve server updating?
+.-
+.-
+.-
+.-
+
+What its virtualizations, whats a benefits of?
+
+What its de SANS? 
+What its a NAS?
+What its a RAID?
+RAID 0 
+RAID 1
+RAID 5
+RAID 10 (1 +0)
+
