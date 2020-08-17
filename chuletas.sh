@@ -291,6 +291,8 @@ du -hs * | sort -hr
 
 #conections stablished
 netstat -nt | tail -n +3 | grep ESTABLISHED
+netstat -nt | tail -n +3 | grep CONN
+netstat -l
 
 #while on list
 while read F  ; do

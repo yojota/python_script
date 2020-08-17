@@ -63,3 +63,24 @@ Command to know server
 .- ip link
 .- ip addr
 .- traceroute 
+
+
+What is URL?
+
+Uniform Resource Locator (URL)
+ Part of URl
+
+ shceme:  https:// fpt:// 
+ subdomian: [cloud].yojota.com
+ seconlevel domain: cloud.[yojota].com.ar
+ top-level: cloud.yojota.[com.ar]
+ subdirectory: cloud.yojota.com.ar[/whoami]
+ query: cloud.yojota.com.ar/whoami[?param1=value1]
+
+                            .-:80-----.                      
+>>-http://--+-host name--+--+---------+--/--path component------> 
+            '-IP address-'  '-:--port-'                      
+
+            													>--+-----------------+-----------------------------------------><
+   																'-?--query string-'   
+
