@@ -147,29 +147,84 @@ python hello.py 2>/dev/null    # stderr to (null)
 python hello.py &>/dev/null    # stdout and stderr to (null)
 
 
+#SQL
 
-mysql
+SQL: MySql, Oracle, Postgres, and MS-SQL. 
+NoSQL: MongoDB, Redis, Neo4j, Cassandra, Hbase. 
+
+#data bases SQL vs NoSql
+https://docs.google.com/spreadsheets/d/1c9hoIP7LYE1k_JKPOkN5N_LyPnAT8vpp3j91UjeKLl4/edit#gid=0
+
+
+
+Mysql
 -----
+
+#dump mysql
 mysqldump -hhost -uusuario -ppassword basededatos > basededatos.sql
+#restore mysql
 mysql -u usuario -p basededatos < basededatos.sql
-
-
+# select all columns from table sort 
 SELECT * FROM shop ORDER BY article;
-
+# view list users 
 select User from mysql.user;
-
+# view user from DBS
 select u.User,Db from mysql.user u,mysql.db d where u.User=d.User;
+# view user from hosts
 SELECT user,host FROM mysql.user;
+# change privileges 
 GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'localhost';
+# update privileges
 FLUSH PRIVILEGES;
 
 
 
 postgresql
------------
+----------
+#login user postgres
+sudo -i -u postgres
+#postgresql cli
+psql
+# list dbs in engine
+postgres=# \l
+#quit cli
+postgres=# \q
+#backup
+pg_dump Valersa > Valersa.tar
+#backup -F
+pg_dump -F Valersa > Valersa.tar
+#restore
+pg_restore -i -h localhost -p 5432 -U postgres -d mibase -v "/home/damian/backups/mibase.backup"
+#restore generic
+psql -U <username> -d <dbname> -1 -f <filename>.sql
 
 
-os
+MongoDB
+-------
+
+#backup
+mongodump
+mongodump --host=mongodb.example.net --port=27017
+mongodump --out=/data/backup/
+mongodump --collection=myCollection --db=test
+#restore
+mongorestore dump-2013-10-25/
+mongorestore --port=<port number> <path to the backup>
+
+
+Redis
+-----
+#dump backup
+cp /var/lib/redis/dump.rdb /home/sammy/redis-backup-001
+#with rdiff-backup
+apt-get install -y rdiff-backup
+rdiff-backup --preserve-numerical-ids /var/lib/redis /home/yojota/redis
+#restore
+rdiff-backup -r now /home/sammy/redis/dump.rdb /var/lib/redis/dump.rdb
+
+
+
+OS
 --
 command utils
 
