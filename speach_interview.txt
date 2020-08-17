@@ -52,8 +52,14 @@ RAID 10 (1 +0) convination
 
 Explain TCP/IP model
 
-1.- Link layer: ethernet ARP
+1.- Link layer: ethernet ARP: 
 2.- Internet layer: IP ICMP 
 3.- Transport layer: TCP UDP
 4.- Aplication layer: DNS SSH FTP SMTP DHCP HTTP
 
+Command to know server
+
+.- uname -a
+.- ip link
+.- ip addr
+.- traceroute 
