@@ -5,10 +5,146 @@ python
 
 #! /usr/bin/env python
 
+#input and print
+print('What is your name?')   # ask for their name
+myName = input()
+
+#comparison
+== 	Equal to
+!= 	Not equal to
+< 	Less than
+> 	Greater Than
+<= 	Less than or Equal to
+>= 	Greater than or Equal to
+
+#Augmented assigment
+spam += 1 	spam = spam + 1
+spam -= 1 	spam = spam - 1
+spam *= 1 	spam = spam * 1
+spam /= 1 	spam = spam / 1
+spam %= 1 	spam = spam % 1
+
+#conditional
+name = 'Bob'
+if name == 'Alice':
+    print('Hi, Alice.')
+else:
+    print('Hello, stranger.')
+
+#loop
+spam = 0
+while spam < 5:
+    print('Hello, world.')
+    spam = spam + 1
+
+for i in range(5):
+	print('Jimmy Five Times ({})'.format(str(i)))
+
+#function
+def spam(divideBy):
+     try:
+         return 42 / divideBy
+     except ZeroDivisionError as e:
+         print('Error: Invalid argument: {}'.format(e))
+     finally:
+         print("-- division finished --")
+
+#list
+spam = ['cat', 'bat', 'rat', 'elephant']
+spam[0]
+'cat'
+
+#sort
+spam = [2, 5, 3.14, 1, -7]
+spam.sort()
+spam
+[-7, 1, 2, 3.14, 5]
+
+#
+
 bash
 ----
 
 #!/bin/bash
+
+#print
+
+
+NAME="John"
+echo "Hi $NAME"  #=> Hi John
+echo 'Hi $NAME'  #=> Hi $NAME
+
+#excution
+##echo "$(pwd)"
+
+#conditional
+[[ -z STRING ]] 	Empty string
+[[ -n STRING ]] 	Not empty string
+[[ STRING == STRING ]] 	Equal
+[[ STRING != STRING ]] 	Not Equal
+[[ NUM -eq NUM ]] 	Equal
+[[ NUM -ne NUM ]] 	Not equal
+[[ NUM -lt NUM ]] 	Less than
+[[ NUM -le NUM ]] 	Less than or equal
+[[ NUM -gt NUM ]] 	Greater than
+[[ NUM -ge NUM ]] 	Greater than or equal
+[[ STRING =~ STRING ]] 	Regexp
+(( NUM < NUM )) 	Numeric conditions
+More conditions
+[[ -o noclobber ]] 	If OPTIONNAME is enabled
+[[ ! EXPR ]] 	Not
+[[ X && Y ]] 	And
+[[ X || Y ]] 	Or
+
+#conditional
+# String
+if [[ -z "$string" ]]; then
+  echo "String is empty"
+elif [[ -n "$string" ]]; then
+  echo "String is not empty"
+else
+  echo "This never happens"
+fi
+
+
+#function
+get_name() {
+  echo "John"
+}
+
+echo "You are $(get_name)"
+
+#conditional
+if [[ -z "$string" ]]; then
+  echo "String is empty"
+elif [[ -n "$string" ]]; then
+  echo "String is not empty"
+fi
+
+##Loops
+for i in /etc/rc.*; do
+  echo $i
+done
+
+for ((i = 0 ; i < 100 ; i++)); do
+  echo $i
+done
+
+for i in "${arrayName[@]}"; do
+  echo $i
+done
+
+cat file.txt | while read line; do
+  echo $line
+done
+
+#redirecction
+python hello.py > output.txt   # stdout to (file)
+python hello.py >> output.txt  # stdout to (file), append
+python hello.py 2> error.log   # stderr to (file)
+python hello.py 2>&1           # stderr to stdout
+python hello.py 2>/dev/null    # stderr to (null)
+python hello.py &>/dev/null    # stdout and stderr to (null)
 
 
 
