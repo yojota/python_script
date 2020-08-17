@@ -44,8 +44,16 @@ What its virtualizations, whats a benefits of?
 What its de SANS? 
 What its a NAS?
 What its a RAID?
-RAID 0 
-RAID 1
-RAID 5
-RAID 10 (1 +0)
+RAID 0 extend
+RAID 1 mirrow
+RAID 5 fail safe
+RAID 10 (1 +0) convination 
+
+
+Explain TCP/IP model
+
+1.- Link layer: ethernet ARP
+2.- Internet layer: IP ICMP 
+3.- Transport layer: TCP UDP
+4.- Aplication layer: DNS SSH FTP SMTP DHCP HTTP
 
