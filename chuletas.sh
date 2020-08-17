@@ -138,7 +138,29 @@ grep "^[[:lower:]]"
 grep "^[[:space:]]"
 #ip directions
 grep -oi "[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}"
-
+#begin with
+grep “^hello”
+#contain leter a to e
+grep “[a-e]”
+#lowe and upper
+grep -i “hello”
+#GREP_OPTIONS
+export GREP_OPTIONS='--color=auto' GREP_COLOR='100;8'
+#recursive
+grep -r "jota" *
+# search two diferent words
+egrep -w 'word1|word2'
+# invert match
+grep -v bar
+#number line 
+grep -n line
+#common utilization for grep
+#cpu model
+cat /proc/cpuinfo | grep -i 'Model'
+#grep + find
+find . -type f -exec grep -il 'foo' {} \;
+#grep gzip file
+zgrep foo myfile.gz 
 
 #timeout read variable
 
@@ -192,4 +214,21 @@ m h dow mon dom
 |  |  |  |  .--- día de la semana (0-6) (domingo=0 ó 7) o sun,mon,tue,wed,thu,fri,sat (días en inglés) 
 |  |  |  |  |
 *  *  *  *  *  comando a ejecutar
+#https://cronitor.io/ monitor your cron jobs
 
+#redirect
+1>filename # Redirect stdout to file "filename."
+1>>filename # Redirect and append stdout to file "filename."
+2>filename # Redirect stderr to file "filename."
+2>>filename # Redirect and append stderr to file "filename."
+&>filename # Redirect both stdout and stderr to file "filename." sThis operator is now functional, as of Bash 4, final release.
+2>&1 # Redirects stderr to stdout. Error messages get sent to same place as standard output.
+
+ls -yz >> command.log 2>&1
+#  Capture result of illegal options "yz" in file "command.log."
+#  Because stderr is redirected to the file,
+#+ any error messages will also be there.
+
+utility &>/dev/null 
+#is the same as 
+utility >/dev/null 2>&1 
