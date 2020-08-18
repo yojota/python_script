@@ -122,6 +122,7 @@ elif [[ -n "$string" ]]; then
 fi
 
 ##Loops
+#for
 for i in /etc/rc.*; do
   echo $i
 done
@@ -133,7 +134,7 @@ done
 for i in "${arrayName[@]}"; do
   echo $i
 done
-
+#while
 cat file.txt | while read line; do
   echo $line
 done
